@@ -1,10 +1,6 @@
 ---
 layout: hack
 title: TSHN ~ Top Stories of Hacker News in last 24 hours
-shortdescription: TSHN i.e Top Stories of Hacker News is a tool which scrapes the front page of Hacker News every 15 min. It combines all the top stories from the last 24 hours and displays it sorted via karma-points the stories have earned.
-zip_url: https://github.com/sushant-hiray/tshn/zipball/master
-issue_url: https://github.com/sushant-hiray/tshn/issues/new
-repository_url: http://github.com/sushant-hiray/tshn
 category:hacks
 ---
 
