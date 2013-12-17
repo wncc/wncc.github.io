@@ -1,9 +1,10 @@
 ---
-layout: hack
+layout: posts
 title: TSHN ~ Top Stories of Hacker News in last 24 hours
-category:hacks
+category: hacks
 ---
 
+TSHN scrapes the first page of Hacker News and generates a new page containing the top stories from the past 24 hours sorted in descending order by overall points.
 
 Instructions
 ------------
