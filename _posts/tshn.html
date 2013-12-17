@@ -1,0 +1,27 @@
+---
+layout: hack
+title: TSHN ~ Top Stories of Hacker News in last 24 hours
+shortdescription: TSHN i.e Top Stories of Hacker News is a tool which scrapes the front page of Hacker News every 15 min. It combines all the top stories from the last 24 hours and displays it sorted via karma-points the stories have earned.
+zip_url: https://github.com/sushant-hiray/tshn/zipball/master
+issue_url: https://github.com/sushant-hiray/tshn/issues/new
+repository_url: http://github.com/sushant-hiray/tshn
+category:hacks
+---
+
+
+Instructions
+------------
+Checkout `run.sh` for a sample bash script
+
+Change the path to `scrape.py`
+
+Now add a cron task as follows:
+
+1. Open terminal and type `crontab -e`
+2. Append the following line into the opened file:
+   `*/15 * * * * <path to run.sh>`
+3. Once the cron task is set right, the script will scrape front page of HN every 15 minutes and update the top stories data accordingly.
+
+Demo
+----
+You can look over to www.wncc-iitb.org/tshn/ for the latest top stories.
