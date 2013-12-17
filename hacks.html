@@ -1,0 +1,13 @@
+---
+layout: default
+title: WnCC Community Hacks
+---
+
+<h1>Community Hacks</h1>
+<hr/>
+
+{% for hack in site.hacks %}
+  <h2><a href="{{ hack.url }}">{{ hack.title }}</a></h2>
+  <p>{{hack.shortdescription}}</p>
+  <hr/>
+{% endfor %}

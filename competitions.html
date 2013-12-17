@@ -1,0 +1,14 @@
+---
+layout: default
+title: WnCC Competitions
+---
+
+<h1>Our Competitions</h1>
+<hr/>
+
+{% for compi in site.competitions %}
+  <small>{{ compi.date | date_to_string }}</small>
+  <h2><a href="{{ compi.url }}">{{ compi.title }}</a></h2>
+  <p>{{ compi.shortdiscription }} </p>
+  <hr/>
+{% endfor %}
