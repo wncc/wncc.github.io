@@ -4,11 +4,11 @@ title: Android Winter Bootcamp
 category: events
 startdate: 2012-12-24
 enddate: 2012-12-31
-speaker: [GDG Members] 
+speaker: [GDG Members]
+venue: LCH 11 
 ---
 
 ##Agenda##
-###Day 1###
 *	Introduction to Android
 *	Course Overview 
 *	Introduction

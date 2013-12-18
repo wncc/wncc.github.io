@@ -9,12 +9,20 @@
 	<hr/>
 	{% if page.enddate %}
 	<h3>Date</h3>
-	<p> {{ page.startdate }} to {{ page.enddate }}</p>
+	<p> {{ page.startdate | date_to_string }} to {{ page.enddate | date_to_string }}</p>
+	{% else %}
+	<h3>Date</h3>
+	<p>{{ page.date | date_to_string }}
 	{% endif %}
 	{% if page.speaker %}
 	<h3>Speaker/(s)</h3>
 	<p>{{ page.speaker | array_to_sentence_string }}</p>
 	{% endif %}
+	{% if page.venue %}
+	<h3>Venue</h3>
+	<p>{{ page.venue }}</p>
+	{% endif %}
+	<br/>
 	{{content}}
 	</article>
 </section>
