@@ -9,7 +9,7 @@
 	<hr/>
 	{% if page.enddate %}
 	<h3>Date</h3>
-	<p> {{ page.startdate | date_to_string }} to {{ page.enddate | date_to_string }}</p>
+	<p> {{ page.startdate }} to {{ page.enddate }}</p>
 	{% else %}
 	<h3>Date</h3>
 	<p>{{ page.date | date_to_string }}
