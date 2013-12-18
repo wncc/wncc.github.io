@@ -6,9 +6,8 @@ title: WnCC Events
 <h1>Our Events</h1>
 <hr/>
 
-{% for event in site.events %}
-  <small>{{ event.date | date_to_string }}</small>
-  <h2><a href="{{ event.url }}">{{ event.title }}</a></h2>
-  <p>{{ event.shortdiscription }} </p>
+{% for post in site.posts %}
+  <small>{{ post.date | date_to_string }}</small>
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   <hr/>
 {% endfor %}
