@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Android Winter Bootcamp
+title: ACM ICPC Practice Round
 category: competitions
 startdate: 2013-12-12
 enddate: 2013-12-14
