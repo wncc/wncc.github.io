@@ -1,0 +1,21 @@
+{% include header.html %}
+
+
+{% include followus.html %}
+
+<section id="main">
+	<article>
+	<h1>{{page.title}}</h1>
+	<hr/>
+	{% if page.enddate %}
+	<h3>Date</h3>
+	<p> {{ page.startdate }} to {{ page.enddate }}</p>
+	{% endif %}
+	{% if page.speaker %}
+	<h3>Speaker/(s)</h3>
+	<p>{{ page.speaker | array_to_sentence_string }}</p>
+	{% endif %}
+	{{content}}
+	</article>
+</section>
+{% include footer.html %}
