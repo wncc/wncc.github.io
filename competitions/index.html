@@ -9,7 +9,7 @@ title: WnCC Competitions
 {% for post in site.posts %}
 	{% if post.categories contains 'competitions' %}
 	  <small>{{ post.date | date_to_string }}</small>
-	  <h2><a href="{{ compi.url }}">{{ post.title }}</a></h2>
+	  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 	  <p>{{ post.shortdiscription }} </p>
 	  <hr/>
 	{% endif %}
