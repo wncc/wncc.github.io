@@ -9,10 +9,10 @@
 	<hr/>
 	{% if page.enddate %}
 	<h3>Date</h3>
-	<p> {{ page.startdate }} to {{ page.enddate }}</p>
+	<p> {{ page.startdate | date: "%-d %B %Y" }} to {{ page.enddate | date: "%-d %B %Y" }}</p>
 	{% else %}
 	<h3>Date</h3>
-	<p>{{ page.date | date_to_string }}
+	<p>{{ page.date | | date: "%-d %B %Y" }}
 	{% endif %}
 	{% if page.speaker %}
 	<h3>Speaker/(s)</h3>
