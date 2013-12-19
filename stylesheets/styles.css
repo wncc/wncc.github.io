@@ -253,3 +253,45 @@ footer {
     color:#444;
   }
 }
+
+div.stats, div.buttons, div.continue {
+    margin: 0.5em 0 1.5em;
+    font-size: 75%;
+    color: #888;
+}
+
+/* Since these are all secondary links, apply the secondary link colors: */
+
+div.stats a, div.stats a:visited,
+div.buttons a, div.buttons a:visited,
+a.post div.continue, a.post:visited div.continue {
+    color: #44b;
+}
+
+div.stats a:hover, div.stats a:active,
+div.buttons a:hover, div.buttons a:active,
+a.post:hover div.continue, a.post:active div.continue {
+    color: #226;
+    text-decoration: underline; /* for the a.post div.continue */
+}
+
+div.stats {
+    float: left;
+}
+
+div.buttons, div.continue {
+    float: right;
+}
+
+div.buttons > * {
+    display: inline-block;
+    height: 20px;
+    vertical-align: bottom !important; /* override generated inline styles... */
+}
+
+/* XXX FIXME hack needed since this messes up layout. weird? */
+div.buttons > #fb-root {
+    display: none;
+}
+
+
