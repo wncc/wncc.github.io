@@ -60,6 +60,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   </head>
   <body>
+    <!-- facebook plugin -->
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=215790075234188";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
     <div class="wrapper">
       <header>
         <h1><a href="/">WnCC</a></h1>
@@ -93,6 +103,36 @@
       </header>
       <section id="main">
         {{ content }}
+        <br/>
+        <hr/>
+        <br/>
+        <div class="stats">
+          &nbsp; &nbsp; &nbsp;
+        </div>
+
+        <div class="buttons">
+
+            <!--
+all buttons below are explicitly set to use this post's full
+(canonical) absolute URL and are customized to be 20px tall.
+
+links:
+- http://www.google.com/webmasters/+1/button/
+- http://developers.facebook.com/docs/reference/plugins/like/
+- https://dev.twitter.com/docs/tweet-button
+
+all scripts are at the bottom.
+-->
+
+            <div class="g-plusone" data-size="medium" data-href="http://wncc-iitb.org{{ page.url }}"></div>
+
+            <a href="http://twitter.com/share" class="twitter-share-button" data-via="SushantHiray" data-related="SushantHiray"
+                data-url="http://wncc-iitb.org{{ page.url }}" data-text="{{ page.title | escape }}">Tweet</a>
+
+            <div class="fb-like" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false" data-href="http://wncc-iitb.org{{ page.url }}"></div>
+
+        </div>
+
       </section>
       <footer>
         <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
@@ -102,5 +142,18 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
     <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+
+    <!-- Twitter plugin -->
+     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+    <!-- Google Plus (+1): -->
+    <script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
+
   </body>
 </html>
