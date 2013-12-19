@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{{ page.title }}</title>
+
+    <link rel="stylesheet" href="http://sushant-hiray.github.io/stylesheets/styles.css">
+    <style>
+      header { zoom: 1.2; }
+      header h1 { margin-bottom: 5px; }
+      header h1 a { color: #494949; font-weight: bold; }
+      header h3 { margin-top: 20px; margin-bottom: 5px; }
+      header p.view { margin-bottom: 5px; }
+      header p.view small { padding-top: 2px; }
+      header ul {
+        zoom: 0.7;
+        margin-top: 25px;
+      }
+      section p { margin-top: 10px; }
+      section h1 { margin-bottom: 15px; }
+      section h2 { margin-bottom: 10px; }
+      section h2 { margin-bottom: 10px; }
+      footer { bottom: 20px; }
+      footer p { margin-bottom: 5px; }
+      .half-width {
+        float: left;
+        width: 200px;
+        list-style: none;
+        padding: 5px;
+        margin: 7px;
+        margin-bottom: 10px;
+      }
+      .half-width h4 {
+        margin-bottom: 5px;
+      }
+      .half-width ul {
+        padding-left: 0;
+      }
+      .half-width ul li {
+        list-style: inside;
+        font-size: 15px;
+      }
+      .clear-fix {
+        clear: both;
+      }
+    </style>
+    <script src="https://github.com/themes/minimal/javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/">Sushant Hiray</a></h1>
+        <!-- <p>Where's Danish now?</p> -->
+
+        <!-- <h3>The Goods</h3> -->
+        <!-- <p class="view"><a href="/projects.html">Open Source Projects<small>Code that Might be Useful to You</small></a></p> -->
+       <!-- <p class="view"><a href="/talks.html">Talks I've Given<small> for WnCC </small></a></p> -->
+        <p class="view"><a href="/posts.html">Thoughts<small>My Ideas</small></a></p>
+        <p class="view"><a href="/projects.html">Projects<small>I've experimented with</small></a></p>
+
+        {% if page.repository_url %}
+          <h3>Project Info</h3>
+          <ul>
+            {% if page.zip_url %}
+              <li><a href="{{ page.zip_url }}">Download <strong>ZIP File</strong></a></li>
+            {% endif %}
+            {% if page.issue_url %}
+              <li><a href="{{ page.issue_url }}">Report<strong>An Issue</strong></a></li>
+            {% endif %}
+            {% if page.repository_url %}
+              <li><a href="{{ page.repository_url }}">Fork On <strong>GitHub</strong></a></li>
+            {% endif %}
+          </ul>
+        {% endif %}
+        <br/>
+        <h3>Follow Me On</h3>
+        <p class="view"><a href="https://github.com/sushant-hiray" target="tab">GitHub<small>If social coding is your thing</small></a></li>
+        <p class="view"><a href="https://twitter.com/SushantHiray" target="tab">Twitter<small>If you tweet</small></a></li>
+        <p class="view"><a href="https://facebook.com/sushant.hiray" target="tab">FB<small>If you wanna befriend me!</small></a></li> 
+      </header>
+      <section id="main">
+        {{ content }}
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+  </body>
+</html>
