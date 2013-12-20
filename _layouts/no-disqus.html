@@ -51,15 +51,12 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="/">Sushant Hiray</a></h1>
-        <!-- <p>Where's Danish now?</p> -->
-
-        <!-- <h3>The Goods</h3> -->
-        <!-- <p class="view"><a href="/projects.html">Open Source Projects<small>Code that Might be Useful to You</small></a></p> -->
-       <!-- <p class="view"><a href="/talks.html">Talks I've Given<small> for WnCC </small></a></p> -->
-        <p class="view"><a href="/posts.html">Thoughts<small>My Ideas</small></a></p>
-        <p class="view"><a href="/projects.html">Projects<small>I've experimented with</small></a></p>
-
+        <h1><a href="/">WnCC</a></h1>
+        <p class="view"><a href="/events">Events<small>Entire Event Archive</small></a></p>
+        <p class="view"><a href="/hacks">Community Hacks<small>Display board of hacks</small></a></p>
+        <p class="view"><a href="/competitions">Competitions<small>Upcoming,Ongoing and Archived Competitions</small></a></p>
+        <p class="view"><a href="/resources">Resource Center<small>Resources to learn interesting stuff</small></a></p>
+        <p class="view"><a href="/about.html">About<small>About the community</small></a></p>
         {% if page.repository_url %}
           <h3>Project Info</h3>
           <ul>
@@ -73,12 +70,15 @@
               <li><a href="{{ page.repository_url }}">Fork On <strong>GitHub</strong></a></li>
             {% endif %}
           </ul>
-        {% endif %}
         <br/>
-        <h3>Follow Me On</h3>
-        <p class="view"><a href="https://github.com/sushant-hiray" target="tab">GitHub<small>If social coding is your thing</small></a></li>
-        <p class="view"><a href="https://twitter.com/SushantHiray" target="tab">Twitter<small>If you tweet</small></a></li>
-        <p class="view"><a href="https://facebook.com/sushant.hiray" target="tab">FB<small>If you wanna befriend me!</small></a></li> 
+        <h3>Author/(s)</h3>
+        {{ page.author | array_to_sentence_string }}
+        {% else %}
+        <h3>Follow Us On</h3>
+        <p class="view"><a href="https://github.com/wncc" target="tab">GitHub<small>If social coding is your thing</small></a></li>
+        <p class="view"><a href="https://groups.google.com/forum/#!forum/wncc_iitb" target="tab">Google Groups<small>If you're from IITB</small></a></li>
+        <p class="view"><a href="https://facebook.com/wncc.iitb" target="tab">FB<small>If you want to follow interesting topics!</small></a></li> 
+      {% endif %}
       </header>
       <section id="main">
         {{ content }}
