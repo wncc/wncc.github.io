@@ -2,8 +2,8 @@
 layout: event
 title: Android Winter Bootcamp
 category: events
-startdate: 2013-12-12
-enddate: 2013-12-13
+startdate: 2013-12-24
+enddate: 2013-12-31
 speaker: [GDG Members]
 ---
 
