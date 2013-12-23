@@ -16,19 +16,21 @@ In case of a single author, specify it as `author:[Author1]`
 ###This is also a heading###
 
 
-This is a code snippet `int i=0`
+This is a short code snippet `int i=0`
 
 Following is an ordered list
+
 1. Alpha
 2. Beta
 3. Gamma
 
 Following is an unordered list
+
 * Alpha
 * Beta
 * Gamma
 
-This is a highlighted code
+This is a highlighted code with line numbers
 {% highlight ruby linenos %}
 def foo
   puts 'foo'
