@@ -10,6 +10,7 @@ author: [Author1,Author2]
 
 The content starts from here:
 From the above YAML `layout`,`title` and `category` are must. Rest are optional.
+
 In case of a single author, specify it as `author:[Author1]`
 
 ##This is heading##
