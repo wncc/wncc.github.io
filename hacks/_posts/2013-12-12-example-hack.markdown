@@ -9,6 +9,8 @@ author: [Author1,Author2]
 ---
 
 The content starts from here:
+From the above YAML `layout`,`title` and `category` are must. Rest are optional.
+In case of a single author, specify it as `author:[Author1]`
 
 ##This is heading##
 ###This is also a heading###
@@ -34,7 +36,7 @@ end
 {% endhighlight %}
 
 This is an embedded gist:
-{% gist 5555251 %}
+{% gist 8065556 pushit %}
 
 Following is a link: [Link Example][] for the latest top stories.
 
