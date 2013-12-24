@@ -2,7 +2,9 @@
 layout: event
 title: ACM ICPC Practice Round
 category: competitions
-date: 2013-09-26
+starttime: 2013-12-24 12:00:00
+endtime: 2013-12-24 15:00:00
+venue: NSL
 ---
 
 Over 50 participants.
