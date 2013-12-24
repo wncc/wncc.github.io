@@ -1,0 +1,27 @@
+{% include header.html %}
+
+
+{% include followus.html %}
+
+<section id="main">
+	<article>
+	<h1>{{page.title}}</h1>
+	<hr/>
+	{% if page.enddate %}
+	<h3>Date</h3>
+	<p> {{ page.startdate | date: "%-d %B %Y" }} to {{ page.enddate | date: "%-d %B %Y" }}</p>
+	{% else %}
+	<h3>Time:</h3>
+	<p>{{ page.starttime | date: "%-d %B %Y %H:%M:%S" }} to {{ page.endtime | date: "%-d %B %Y %H:%M:%S" }}</p>
+	{% endif %}
+	{% if page.judge %}
+	<h3>Judge/(s)</h3>
+	<p>{{ page.judge| array_to_sentence_string }}</p>
+	{% endif %}
+	{% if page.venue %}
+	<h3>Venue</h3>
+	<p>{{ page.venue }}</p>
+	{% endif %}
+	{{content}}
+	</article>
+{% include footer.html %}
