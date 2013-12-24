@@ -2,9 +2,10 @@
 layout: event
 title: Example Events page
 category: events
-speakers: [Speaker1,Speaker2] 
+speaker: [Speaker1,Speaker2] 
 starttime: 2013-12-24 12:00:00
 endtime: 2013-12-24 15:00:00
+venue: NSL
 ---
 
 The content starts from here:
