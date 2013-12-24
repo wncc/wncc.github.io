@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: event
 title: Example Events page
 category: events
 speakers: [Speaker1,Speaker2] 
@@ -10,7 +10,7 @@ endtime: 2013-12-24 15:00:00
 The content starts from here:
 From the above YAML `layout`,`title` and `category` are must. Rest are optional.
 
-In case of a single author, specify it as `author:[Author1]`
+In case of a single speaker, specify it as `author:[Speaker1]`
 
 ##This is heading##
 ###This is also a heading###
