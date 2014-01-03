@@ -30,12 +30,12 @@ Event pics can be found on the [fb album][]
 We had registered a total of 28 teams comprising of 2 freshmen each, which submitted a final project.
 
 Some of the interesting projects include:
-Ghost Fighter
-Pokemon Fight
-Cat v/s Ghost
-Survive Virus Attack
-Air Hockey
-Space Warriors
+* Ghost Fighter
+* Pokemon Fight
+* Cat v/s Ghost
+* Survive Virus Attack
+* Air Hockey
+* Space Warriors
 
 [Scratch Day website]: http://day.scratch.wncc-iitb.org/ 
 [Here]: https://www.facebook.com/media/set/?set=vb.543079142411722&type=2
