@@ -10,7 +10,7 @@ venue: NSL
 
 ##Agenda##
 
-####HTML5####
+###HTML5###
 
 * Canvas
 * Audio & Video Tags
@@ -18,7 +18,7 @@ venue: NSL
 * Session Storage
 
 
-####CSS3#### 
+###CSS3###
 
 * Gradients
 * 3D Effects
