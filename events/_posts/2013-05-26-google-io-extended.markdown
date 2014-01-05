@@ -2,13 +2,14 @@
 layout: event
 title: Google IO Extended
 category: events
-startdate: 2013-05-26 11:00:00
-enddate: 2013-05-26 14:00:00
+starttime: 2013-05-26 11:00:00
+endtime: 2013-05-26 14:00:00
 author: [GDG Group]
 venue: NSL
 ---
 
 Wondering what Google I/O is?
+
 Have a look at it [here](https://developers.google.com/events/io/).
 
 ##Agenda##
