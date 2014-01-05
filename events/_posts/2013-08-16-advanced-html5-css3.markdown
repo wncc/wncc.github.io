@@ -9,16 +9,21 @@ venue: NSL
 ---
 
 ##Agenda##
+
 ####HTML5####
+
 * Canvas
 * Audio & Video Tags
 * Local Storage
 * Session Storage
 
+
 ####CSS3#### 
+
 * Gradients
 * 3D Effects
 
 
 ##Prerequisites##
+
 Since the session is advanced, basic knowledge of HTML and CSS is recommended. However, it wouldn't be too big a deal for a beginner.
