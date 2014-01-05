@@ -7,7 +7,8 @@ starttime: 2013-06-02 16:00:00
 endtime: 2013-06-02 18:00:00
 venue: LCC 01
 --- 
-First in the series of three events at IIT Bombay, the event will be two hour in duration, which is focused on introducing the world of Mozilla and open source development to the students of Indian Institute of Technology, Bombay.This event is in collaboration with Mozilla Reps.
+
+First in the series of three events at IIT Bombay, the event will be two hour in duration, which is focused on introducing the world of Mozilla and open source development to the students. This event is in collaboration with Mozilla Reps.
 
 ###Agenda###
 
@@ -18,7 +19,7 @@ First in the series of three events at IIT Bombay, the event will be two hour in
 *    Developer Resources Mozilla Developer Network
 
 ###Resources###
-The resources for the event are: 
+The resources for the event are here: 
 
 * Abhishek's [slides](http://abhishekvp.github.io/Talks/mozTalk@IITB/) on Fixing Bugs
 * Amod's [slides](http://amodnn.github.io/MozTalk/IITB/owa.html) on creating Open Web Apps
