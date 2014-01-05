@@ -2,8 +2,8 @@
 layout: event
 title: HTML/CSS workshop
 category: events
-startdate: 2013-10-19 16:00:00
-enddate: 2013-10-19 18:00:00
+starttime: 2013-10-19 16:00:00
+endtime: 2013-10-19 18:00:00
 speaker: [Manish Goregaokar, Ranveer Aggarwal]
 ---
 
