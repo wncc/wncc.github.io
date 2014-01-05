@@ -6,10 +6,10 @@ speaker: [Ankit Bahuguna, Abhishek Potnis, Amod Narvekar]
 starttime: 2013-06-02 16:00:00
 endtime: 2013-06-02 18:00:00
 venue: LCC 01
----
- First in the series of three events at IIT Bombay, the event will be two hour in duration, which is focused on introducing the world of Mozilla and open source development to the students of Indian Institute of Technology, Bombay.This event is in collaboration with Mozilla Reps.
+--- 
+First in the series of three events at IIT Bombay, the event will be two hour in duration, which is focused on introducing the world of Mozilla and open source development to the students of Indian Institute of Technology, Bombay.This event is in collaboration with Mozilla Reps.
 
- ###Agenda###
+###Agenda###
 
 *    Introduction to Mozilla and Firefox
 *    What can you do for Mozilla?
