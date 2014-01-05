@@ -12,7 +12,7 @@
 	<p> {{ page.startdate | date: "%-d %B %Y" }} to {{ page.enddate | date: "%-d %B %Y" }}</p>
 	{% else %}
 	<h3>Time:</h3>
-	<p>{{ page.starttime | date: "%-d %B %Y %H:%M:%S" }} to {{ page.endtime | date: "%-d %B %Y %H:%M:%S" }}</p>
+	<p>{{ page.starttime | date: "%-d %B %Y %H:%M" }} hrs to {{ page.endtime | date: "%H:%M" }} hrs</p>
 	{% endif %}
 	{% if page.speaker %}
 	<h3>Speaker/(s)</h3>
