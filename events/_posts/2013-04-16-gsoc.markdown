@@ -1,0 +1,22 @@
+---
+layout: event
+title: GSOC Introductory Talk
+category: events
+speaker: [Pararth Shah] 
+starttime: 2013-04-16 21:00:00
+endtime: 2013-04-16 22:30:00
+venue: Seminar Hall
+---
+
+###What is GSOC?###
+GSoC  is a program in which you get to work on a project for another existing open-source project.You might get a chance to work on improving some part of Mozilla Firefox or even your favorite python libraries! GSoC is organised and sponsored by Google.Students from all over the world can apply for contributing in open source projects in GSOC. Students in turn get cash reward of 5000 USD , a participating certificate from Google and an awesome tshirt. 
+
+###Agenda###
+
+* What is Open Source?
+* Philosophy behind GSOC
+* Benefits of GSOC
+* Insights
+* Valuable Tips
+
+The slides of the event can be found [here]( {{ site.url}}/slides/gsoc-intro.pdf ).
