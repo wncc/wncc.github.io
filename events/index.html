@@ -11,11 +11,11 @@ category: events
 
 {% for post in paginator.posts %}
 
-<div class="teaser clearfix">
-  <div class="title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></div>
-  <div class="meta"><span class="timeago">{{ post.date | time_ago }}</span>{{ post.tags | tag_links }}</div>
-  <div class="description">{{ post.description }}</div>
-</div>
+      {% if post.categories contains 'competitions' %}
+          <small>{{ post.date | date_to_string }}</small>
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <hr/>
+        {% endif %}
 
 {% endfor %}
 
