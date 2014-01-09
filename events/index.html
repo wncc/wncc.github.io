@@ -9,7 +9,7 @@ category: events
 
 
 
-{% for post in pager.posts %}
+{% for post in paginator.posts %}
 
 <div class="teaser clearfix">
   <div class="title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></div>
@@ -18,3 +18,5 @@ category: events
 </div>
 
 {% endfor %}
+
+{{ paginator | pager_links }}
