@@ -1,0 +1,9 @@
+{% for post in paginator.posts %}
+
+<div class="teaser clearfix">
+  <div class="title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></div>
+  <div class="meta"><span class="timeago">{{ post.date | time_ago }}</span>{{ post.tags | tag_links }}</div>
+  <div class="description">{{ post.description }}</div>
+</div>
+
+{% endfor %}
