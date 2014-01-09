@@ -1,6 +1,6 @@
 ---
 layout: competition
-title: Sratch Day @ WnCC
+title: Scratch Day @ WnCC
 category: competitions
 startdate: 2013-09-28
 enddate: 2013-09-29
