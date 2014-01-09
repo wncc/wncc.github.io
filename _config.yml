@@ -3,5 +3,6 @@ pygments: true
 permalink: /:categories/:title
 auto: true
 baseurl: /
+pagination: true
 rdiscount:
   extensions: [smart]
