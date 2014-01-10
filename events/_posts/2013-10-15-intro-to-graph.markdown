@@ -15,3 +15,11 @@ We had a mixed crowd from a couple of freshies to quite a few enthusiastic fourt
 
 * Basics of Graph Representation
 * DFS/BFS
+* Dijkstra's algorithm
+* Directed Acyclic Graph (DAG)
+* Topological Sort
+* Prim's algorithm - minimum spaning tree
+* Kruskal's algorithm
+* Strongly Connected Component 
+* Tarjan's algorithm
+* Max flow algorithm
