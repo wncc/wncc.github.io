@@ -25,7 +25,7 @@ The most frequent zone where you will add content will be [Community Hack](http:
 The [community hack-wiki](https://github.com/wncc/wncc.github.io/wiki/Adding-a-Community-Hack) gives more specific details on adding your own hack. 
 
 
-Once your pull request is merged, it will be reflected directly on [wncc-iitb.org][]. We've implemented post-update hook for this! If you're in WnCC team and have push rights to the repo, contact <hiraysushant@gmail.com> for configuring post-update hook on your local repo.
+Once your pull request is merged, it will be reflected directly on [wncc-iitb.org][]. We've implemented post-receive hook for this! If you're in WnCC team and have push rights to the repo, contact <hiraysushant@gmail.com> for configuring post-update hook on your local repo.
 
 ----------------------------------------------------------------------------------------------------
 Still confused? Shoot a mailto: <hiraysushant@gmail.com> or <manishsmail@gmail.com>
