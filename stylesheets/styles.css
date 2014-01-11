@@ -352,6 +352,10 @@ div.buttons > #fb-root {
 	writing-mode: lr-tb;
 }
 
+.btn-primary>a,.btn-primary>a:hover{
+color: rgb(255, 255, 255);
+text-decoration:none;
+}
 
 .btn-primary:hover,
 .btn-primary:focus,
