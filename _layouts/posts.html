@@ -7,7 +7,7 @@ layout: default
 <hr/>
 {% if page.hack_url %}
 <div style="text-align:right">
-<button type=button class=btn-primary on-click="window.open('http://www.w3schools.com');">Visit Websites</button>
+<button type=button class=btn-primary on-click="window.open( {{ page.hack_url }} );">Visit Website</button>
 </div>
 {% endif %}
 
