@@ -294,4 +294,77 @@ div.buttons > #fb-root {
     display: none;
 }
 
+/* bootstrap btn-sm primary*/
+.btn-primary {
+	-webkit-appearance: none;
+	-webkit-user-select: none;
+	-webkit-writing-mode: horizontal-tb;
+	align-items: flex-start;
+	background-color: rgb(66, 139, 202);
+	background-image: none;
+	border-bottom-color: rgb(53, 126, 189);
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-image-outset: 0px;
+	border-image-repeat: stretch;
+	border-image-slice: 100%;
+	border-image-source: none;
+	border-image-width: 1;
+	border-left-color: rgb(53, 126, 189);
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: rgb(53, 126, 189);
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: rgb(53, 126, 189);
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	box-sizing: border-box;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	height: 30px;
+	letter-spacing: normal;
+	line-height: 18px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	text-align: center;
+	text-indent: 0px;
+	text-shadow: none;
+	text-transform: none;
+	vertical-align: middle;
+	white-space: nowrap;
+	width: 90px;
+	word-spacing: 0px;
+	writing-mode: lr-tb;
+}
 
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
