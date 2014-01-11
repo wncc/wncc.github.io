@@ -6,6 +6,7 @@ zip_url: https://github.com/Manishearth/IIT-Timetable/archive/master.zip
 issue_url: https://github.com/Manishearth/IIT-Timetable/issues
 repository_url: https://github.com/Manishearth/IIT-Timetable/issues
 author: [Manish Goregaokar] 
+hack_url: http://home.iitb.ac.in/~manishg/Stuff/timetable/
 ---
 
 Currently hosted [here](http://home.iitb.ac.in/~manishg/Stuff/timetable/).
