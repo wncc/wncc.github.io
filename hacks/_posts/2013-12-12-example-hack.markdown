@@ -6,6 +6,7 @@ zip_url: https://github.com/sushant-hiray/tshn/zipball/master
 issue_url: https://github.com/sushant-hiray/tshn/issues/new
 repository_url: http://github.com/sushant-hiray/tshn
 author: [Author1,Author2] 
+hack_url: http://wncc-iitb.org/tshn
 ---
 
 The content starts from here:
