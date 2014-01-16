@@ -12,7 +12,7 @@ venue: NSL
 
  - [Facebook event](https://www.facebook.com/events/729524203726786/730262963652910)
  - [Event Pics](https://www.facebook.com/media/set/?set=a.677003292352639.1073741840.543079142411722&type=1)
- - Resources: To be uploaded
+ - Resources: [Here]() is an interesting thread on our [Google Group](https://groups.google.com/forum/#!forum/wncc_iitb)
 
 
 ##Topics covered
