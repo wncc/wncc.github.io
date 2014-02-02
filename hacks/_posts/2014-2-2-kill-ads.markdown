@@ -34,5 +34,7 @@ Instructions:
 Future Plans:
 ------------
 We plan to add a browser action to the extension so that the user can easily pause/resume the extension.
+
 We also plan to include code to remove video ads, such as those before youtube videos.
+
 We may also add a 'report problem' link so that the user may report(say via e-mail) if the user finds any bugs.
