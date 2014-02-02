@@ -2,8 +2,8 @@
 layout: posts
 title: Say, What's on your Mind(FB post via voice App)
 category: hacks
-zip_url: https://github.com/sunnyrajrathod/hackathon/tree/master/FBUpdateViaVoice/zipball/master
-issue_url: https://github.com/sunnyrajrathod/hackathon/tree/master/FBUpdateViaVoice/issues/new
+zip_url: https://github.com/sunnyrajrathod/hackathon/zipball/master
+issue_url: https://github.com/sunnyrajrathod/hackathon/issues/new
 repository_url: https://github.com/sunnyrajrathod/hackathon/tree/master/FBUpdateViaVoice
 author: [Sunny Raj Rathod] 
 hack_url: https://github.com/sunnyrajrathod/hackathon/tree/master/FBUpdateViaVoice
