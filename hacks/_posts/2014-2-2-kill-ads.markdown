@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Kill Ads
+title: Kill Ads - Chrome Extension
 category: hacks
 zip_url: https://github.com/samarth4149/KillAds-Extension/zipball/master
 issue_url: https://github.com/samarth4149/KillAds-Extension/issues/new
