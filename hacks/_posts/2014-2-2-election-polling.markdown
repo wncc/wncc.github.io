@@ -9,8 +9,8 @@ author: [Shubham Singhal, Arun Verma, Saurabh Gupta]
 hack_url: https://github.com/shubham07iiit/electionportal
 ---
 
-We have made a Election Poll System for IIT Bombay Elections. Keeping in mind the upcoming elections and some of the functionalities which are missing in present portal we have tried to improve it.
-Open newfront.php
+We have made a Election Poll System for IIT Bombay Elections. Keeping in mind the upcoming elections and some of the functionalities which are missing in present portal we have tried to improve it. newfront.php is a starting page
+
 
 In this Polling System
 
@@ -22,11 +22,9 @@ This polling system provides the platform for IIT Bombay students to communicate
 Features :
 ---------
 
-Contestant
 1. New Contestant can register himself or herself and choose the post for which he or she wants to apply.
 2. Contestant is asked his motivation for applying and his vision
 
-Voters
 1. Voters can up vote or down vote the contestants depending upon which contestant among all they like the most.
 
 
