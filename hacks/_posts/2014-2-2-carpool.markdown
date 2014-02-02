@@ -1,15 +1,14 @@
 ---
 layout: posts
-title: Car Pool
+title: Local Carpool App
 category: hacks
-zip_url: https://github.com/sanket0007/car-pool-app
-issue_url: https://github.com/sanket0007/car-pool-app
+zip_url: https://github.com/sanket0007/car-pool-app/zipball/master
+issue_url: https://github.com/sanket0007/car-pool-app/issues/new
 repository_url: https://github.com/sanket0007/car-pool-app
 author: [Sanket Berde,Vedant Seta,Harsh Malde,Darshan Gajara,Saurabh Gupta] 
 hack_url: https://github.com/sanket0007/car-pool-app
 ---
 
-##Local Carpool App##
 
 Our carpool app is designed to connect the remote travellers.
 We observe that usually the only one seat is occupied by the car owner and the rest of the seats are vacant in most of the cases.
