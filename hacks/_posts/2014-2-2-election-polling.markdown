@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Local Carpool App
+title: Election Polling
 category: hacks
 zip_url: https://github.com/shubham07iiit/electionportal/archive/master.zip
 issue_url: https://github.com/shubham07iiit/electionportal/issues/new
