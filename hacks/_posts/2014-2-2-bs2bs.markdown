@@ -1,0 +1,26 @@
+---
+layout: posts
+title:BS2BS - BullShit to BootStrap convertor
+category: hacks
+author: [Anil Shanbhag, Ashwin Paranjape] 
+---
+
+Bootstrap was one of the biggest innovations in the web development space in this decade. Bootstrap is a rock solid framework that helps you build responsive websites with ease.
+
+Many websites are built using bootstrap but even today majority of websites are built using custom css. Only later they realise - Hey! we need a responsive website. Our app Bs2Bs helps convert custom hacked website into bootstrap framework.
+
+Bootstrap is built using LESS. Modifying bootstrap to match site styles involves infering a set of variables regarding the site like body-background,etc. Once these variables are infered from site, it is easy to translate the website using [Webbify framework](http://webbify.in). We use a number of heuristics to infer boostrap settings from the site and later generate a bootstrap css themed using site styles.
+
+Currently Supported:
+-------------------
+
+1. Navbar Styles
+2. Scaffolding settings
+3. Footer Settings
+
+To Do:
+------
+
+1. Infering custom styles on components like Carousel
+2. Handling extras like custom hover effects which cannot be directly done using bootstrap
+
