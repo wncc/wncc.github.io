@@ -91,7 +91,9 @@
               <li><a href="{{ page.repository_url }}">Fork On <strong>GitHub</strong></a></li>
             {% endif %}
           </ul>
+          {% endif %}
         <br/>
+        {% if page.author %}
         <h3>Author/(s)</h3>
         {{ page.author | array_to_sentence_string }}
         {% else %}
