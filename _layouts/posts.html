@@ -12,5 +12,10 @@ layout: default
 {% endif %}
 
 {{content}}
+
+{% if page.author %}
+    <p>Built with love by:</p><br/>
+       {{ page.author | array_to_sentence_string }}
+{% endif %}
 </article>
 

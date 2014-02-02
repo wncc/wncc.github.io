@@ -93,15 +93,10 @@
           </ul>
           {% endif %}
         <br/>
-        {% if page.author %}
-        <h3>Author/(s)</h3>
-        {{ page.author | array_to_sentence_string }}
-        {% else %}
         <h3>Follow Us On</h3>
         <p class="view"><a href="https://github.com/wncc" target="tab">GitHub<small>If social coding is your thing</small></a></li>
         <p class="view"><a href="https://groups.google.com/forum/#!forum/wncc_iitb" target="tab">Google Groups<small>If you're from IITB</small></a></li>
         <p class="view"><a href="https://facebook.com/wncc.iitb" target="tab">FB<small>If you want to follow interesting topics!</small></a></li> 
-      {% endif %}
       </header>
       <section id="main">
         {{ content }}
