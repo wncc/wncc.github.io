@@ -9,11 +9,6 @@ author: [Sanket Berde,Vedant Seta,Harsh Malde,Darshan Gajara,Saurabh Gupta]
 hack_url: https://github.com/sanket0007/car-pool-app
 ---
 
-The content starts from here:
-From the above YAML `layout`,`title` and `category` are must. Rest are optional.
-
-In case of a single author, specify it as `author:[Author1]`
-
 ##Local Carpool App##
 
 Our carpool app is designed to connect the remote travellers.
@@ -26,7 +21,7 @@ This will significantly reduce the burden on public transport in India.
 On the basis of the locations entered by the user, carpool will recommend the people nearby having the same destination.
 
 Features :
-—————————
+---------
 
 1. Simple Inteface
 2. Car Owner can charge a fare
@@ -34,6 +29,6 @@ Features :
 
 
 Future Plans:
-—————————————
+------------
 Future updates will contain Google Map Api integration for a User friendly map for entering locations.
 
