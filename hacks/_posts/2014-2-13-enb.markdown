@@ -1,0 +1,13 @@
+---
+layout: posts
+title: Electronic Noticeboard
+category: hacks
+zip_url: https://github.com/Manishearth/HostelNoticeboard/archive/master.zip
+issue_url: https://github.com/Manishearth/HostelNoticeboard/issues
+repository_url: https://github.com/Manishearth/HostelNoticeboard
+author: [Manish Goregaokar, Kamal Galrani]
+---
+
+This project provides the code for the IITB Electronic Noticeboard project. It is meant to run on Raspberry Pis, with a central management interface on a regular server which can upload files.
+
+
