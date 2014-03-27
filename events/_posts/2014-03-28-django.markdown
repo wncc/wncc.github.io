@@ -1,0 +1,11 @@
+---
+layout: event
+title: Django Unchained!
+category: events
+speaker: [Anil Shanbhag] 
+starttime: 2014-03-28 21:30:00
+endtime: 2014-03-28 22:30:00
+venue: LCH 11
+---
+
+An introductory session on Django, an awesome web framework for Python that tries to save you as much boilerplate as possible.
