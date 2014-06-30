@@ -7,10 +7,10 @@ category: hacks
 <h1>Community Hacks</h1>
 <hr/>
 
-{% for post in site.hacks %}
+{% for post in site.posts %}
+	{% if post.categories contains 'hacks' %}
           <small>{{ post.date | date_to_string }}</small>
           <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
           <hr/>
-
-
+    {% endif %}
 {% endfor %}
