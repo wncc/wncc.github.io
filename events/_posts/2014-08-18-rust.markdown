@@ -2,7 +2,7 @@
 layout: event
 title: Introduction to Rust
 category: events
-speaker: Manish Goregaokar 
+speaker: [Manish Goregaokar]
 starttime: 2014-08-18 21:00:00
 endtime: 2014-08-18 22:30:00
 venue: F. C. Kohli Auditorium
