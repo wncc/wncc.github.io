@@ -1,0 +1,17 @@
+---
+layout: event
+title: Scratch Weekend
+category: events
+speaker: [Mihir Kulkarni, Ranveer Aggarwal]
+starttime: 2014-08-16 14:50:00
+endtime: 2014-08-17 12:30:00
+venue: Old Software Lab
+---
+
+[Webpage here](http://www.stab-iitb.org/wncc/scratch/)
+
+MIT Scratch is a programming language to help guide people into programming. It's very easy to make games and fun programs in Scratch.
+
+This event will teach and mentor freshmen with Scratch, and then have them make their own games.
+
+Expect prizes and food.
