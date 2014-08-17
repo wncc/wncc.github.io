@@ -2,7 +2,7 @@
 layout: event
 title: Scratch Weekend
 category: events
-speaker: [Mihir Kulkarni, Ranveer Aggarwal]
+speaker: [Manish Goregaokar, Ranveer Aggarwal]
 starttime: 2014-08-16 14:50:00
 endtime: 2014-08-17 12:30:00
 venue: Old Software Lab
@@ -15,3 +15,5 @@ MIT Scratch is a programming language to help guide people into programming. It'
 This event will teach and mentor freshmen with Scratch, and then have them make their own games.
 
 Expect prizes and food.
+
+
